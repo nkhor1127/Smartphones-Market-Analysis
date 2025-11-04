@@ -157,7 +157,7 @@ This dashboard provides a comprehensive view of the smartphone market using data
 - At least 8GB RAM
 
 **Highlights**
-- Asus ROG and ZenFone series lead with up to 18GB RAM
+- Asus ROG series lead with up to 18GB RAM
 - Google Pixel and Honor models also meet the criteria
 - Apple models appear but fall short on RAM threshold
 
