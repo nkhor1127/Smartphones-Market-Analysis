@@ -129,7 +129,7 @@ Explore the full interactive dashboard on Tableau Public:
 ---
 
 ### High-Performing Models
-![Model Highlights](tableau/screenshots/model_highlights.png)
+![Features Breakdown](tableau/screenshots/models_combined_features.png)
 
 **Insights**
 - Highest-rated smartphone models
@@ -139,7 +139,7 @@ Explore the full interactive dashboard on Tableau Public:
 ---
 
 ### Feature Comparison Dashboard
-![Features Breakdown](tableau/screenshots/models_combined_features.png)
+![Model Highlights](tableau/screenshots/model_highlights.png)
 
 **Insights**
 - RAM, battery, and processor vs price relationships
