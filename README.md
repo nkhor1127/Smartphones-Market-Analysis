@@ -22,3 +22,14 @@ The dataset includes specifications for over 1,000 smartphone models, covering:
 - **Tableau**: Interactive dashboard with modular visualizations
 
 ---
+
+## Python Data Cleaning
+
+The full cleaning process is in [`python/data_cleaning.ipynb`](python/data_cleaning.ipynb).
+
+It includes:
+
+- Dropping duplicates  
+- Handling missing values  
+- Standardizing data types  
+- Exporting cleaned CSV for SQL and Tableau
