@@ -5,13 +5,13 @@ This project explores smartphone market trends using **Python**, **SQL**, and **
 This project uses the [Real World Smartphones Dataset on Kaggle](https://www.kaggle.com/datasets/abhijitdahatonde/real-world-smartphones-dataset) published by Abhijit Dahatonde on Kaggle.
 The dataset includes specifications for over 1,000 smartphone models, covering:
 
--Brand, model, and operating system
+- Brand, model, and operating system
 
--Price, RAM, battery capacity, and processor speed
+- Price, RAM, battery capacity, and processor speed
 
--Features like 5G support and fast charging
+- Features like 5G support and fast charging
 
--User ratings and other performance indicators
+- User ratings and other performance indicators
 
 ---
 
@@ -121,30 +121,46 @@ Explore the full interactive dashboard on Tableau Public:
 ### Smartphone Market Overview Dashboard
 ![Dashboard Overview](tableau/screenshots/dashboard.png)
 
-**Highlights**
-- Smartphone pricing distribution by brand
-- Ratings vs price segmentation
-- Brand positioning across tiers (budget / mid-range / premium)
+This dashboard provides a comprehensive view of the smartphone market using data-driven visualizations. It combines brand-level comparisons, feature breakdowns, and model highlights to uncover trends in pricing, performance, and user ratings.
+
+**Key Highlights**
+
+- Brand Distribution: Explore how major brands like Apple, Samsung, Xiaomi, and others position themselves across pricing tiers and performance metrics.
+
+- Model Insights: Identify top-rated and most expensive smartphones based on user reviews and pricing data.
+
+- Feature Comparisons: Analyze the impact of 5G support and operating systems on average specs and market presence.
+
+- Premium Picks: Filter models that meet criteria such as fast charging, 5G capability, and ≥8GB RAM.
+  
+---
+
+### 5G vs Non-5G & OS Comparison
+![Model Highlights](tableau/screenshots/model_highlights.png)
+
+**Two bar charts comparing:**
+- 5G vs Non-5G Models: Count and average price
+- Operating Systems: Android, iOS, Other, Unknown
+
+**Highlights:**
+- 5G models outnumber non-5G and have higher average prices
+- iOS models show the highest average price, followed by unknown OS types
 
 ---
 
 ### High-Performing Models
 ![Features Breakdown](tableau/screenshots/models_combined_features.png)
 
-**Insights**
-- Highest-rated smartphone models
-- Price vs rating patterns
-- Best-value models in each price tier
+**Horizontal bar chart showing models that meet all three criteria:**
+- 5G support
+- Fast charging available
+- At least 8GB RAM
 
----
+**Highlights**
+- Asus ROG and ZenFone series lead with up to 18GB RAM
+- Google Pixel and Honor models also meet the criteria
+- Apple models appear but fall short on RAM threshold
 
-### Feature Comparison Dashboard
-![Model Highlights](tableau/screenshots/model_highlights.png)
-
-**Insights**
-- RAM, battery, and processor vs price relationships
-- Feature differences across brands
-- Performance clusters across pricing categories
 
 ---
 
