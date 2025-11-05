@@ -164,7 +164,34 @@ This dashboard provides a comprehensive view of the smartphone market using data
 
 ---
 
+## Conclusion
+This project offers a structured look into the smartphone market using real-world data and a full-stack workflow across Python, SQL, and Tableau. After cleaning and preparing the dataset, I used SQL to segment the data by brand, features, and performance, and built a dashboard to visualize key patterns.
 
+**Some of the main insights include:**
+- Apple leads in premium pricing and is consistently ranked at the top across multiple metrics.
+- 5G support and fast charging correlate with higher specs, often appearing in performance-focused models like those from Asus and OnePlus.
+- iOS devices show significantly higher average prices.
+- Top-rated and most expensive models are concentrated in the iPhone 13 series, reflecting strong brand equity and consumer preference.
+- Premium picks with 5G, fast charging, and ≥8GB RAM are led by brands like Asus, Honor, and Google, with RAM capacities reaching up to 18GB.
+
+---
+
+## What I’d Improve Next
+In addition to refining the dashboard and queries, here are a few areas I’d like to explore to improve the project: 
+
+**Build a mobile-friendly dashboard layout** 
+- Reformat the Tableau dashboard for better viewing on smaller screens, especially if shared publicly or used by consumers.
+
+Why I'm thinking of this:
+
+Many users access dashboards on phones or tablets, especially when comparing products on the go. A responsive layout would improve accessibility and make insights easier to digest.
+
+**Add dynamic filters for multi-feature comparisons** 
+- Let users select combinations like “5G + fast charging + Android” or “< $500 + ≥8GB RAM” to explore tailored device segments.
+
+Why I'm thinking of this:
+
+These filters would make the dashboard more interactive and personalized. Instead of browsing static charts, users could define their own criteria and instantly see which models match. This is useful for both consumers and analysts looking for specific device profiles.
 
 
 
